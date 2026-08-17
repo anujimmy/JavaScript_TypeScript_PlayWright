@@ -43,3 +43,23 @@ console.log(p2);
 
 new Person('Mary',50); //gc will be taking this variable.
 
+
+class Human{
+      constructor(age,name,gender){
+            this.name = name;
+            this.gender = gender;
+            this.age = age;
+      }
+      /**
+       * @param {string} address
+       */
+      print_address(){
+            console.log(`the ${this.name} lives at ${address}`);
+      }
+};
+
+let human1 = new Human(37,'harry potter','M');
+console.log(human1.age);
+console.log(human1.name);
+console.log(human1.gender);
+
