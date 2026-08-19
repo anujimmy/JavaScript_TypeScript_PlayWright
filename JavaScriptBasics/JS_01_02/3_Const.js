@@ -6,6 +6,13 @@ const months = 12;
 let salary = 500;
 console.log("total yearly salary - " + salary*months);
 
+const pi = 3.14;
+console.log(pi);
+/* pi = 4.14; // reassigning a const -> type error
+console.log(pi); 
+const twopi;  // syntax error - missing initializer in const declaration
+console.log(twopi); */
+
 // days = 31; 
 // console.log(days)
 console.log("1. Reassignment of const variables is not possible - ");
@@ -18,3 +25,5 @@ console.log("3. hoisting is anot allowed");
 console.log("Hoisting - ReferenceError: Cannot access '' before initialization");
 // console.log(homePageTitle);
 // const homePageTitle = "Account login";
+
+

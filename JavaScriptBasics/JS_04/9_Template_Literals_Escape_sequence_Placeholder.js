@@ -33,3 +33,15 @@ console.log(`hey ${emp_Name}, Age : ${emp_Age} and ID : ${emp_ID}`);
 let a = 100;
 let b = 200;
 console.log(`Print a,b -> ${a} , ${b}`);
+
+
+let name = "HARRY POTTER";
+let friends_name1 = "Ron Weasley";
+let friends_name2 = "Hermione Granger";
+let enemy_name = 'tom riddle marvolo';
+
+let welcome_msg = `hi my name is ${name}. 
+                  My friends are ${friends_name1} and ${friends_name2}. 
+                  My only enemy is ${enemy_name}`;
+
+console.log(welcome_msg);

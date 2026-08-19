@@ -1,7 +1,9 @@
 console.log("-----VAR Concept-----");
 var a = 10; // global variable
+console.log("value of a - " + a);
 //scope: function scope
 function test(){
+    console.log("value of a - " + a);
     var a = 20;
     console.log("inside test - " + a);
     if(true){

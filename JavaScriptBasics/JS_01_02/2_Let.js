@@ -1,6 +1,7 @@
 
 console.log("-----LET Concept-----");
 let b = 20;
+
 function test(){
     //console.log("inside function - "+b); // cannot access b inside function
     let b = 30;

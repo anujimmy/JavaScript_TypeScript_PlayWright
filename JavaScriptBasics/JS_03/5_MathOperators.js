@@ -61,5 +61,7 @@ console.log(-'100');
 let price = '1000';
 console.log(price * 5);
 
+console.log(+'45'+ 5);
+console.log(-'45'+ 5);
 
 

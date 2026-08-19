@@ -1,7 +1,7 @@
 //1. Post-increment: ++
 console.log("1. Post-increment: I++");
 let a = 1
-let  b = a++;
+let b = a++;
 console.log(a); //2
 console.log(b); //1
 console.log("------");
@@ -66,8 +66,10 @@ console.log("------");
 
 let st = '5';//5
 console.log(++st); //6
+console.log(st);
 console.log("------");
 
 let tr = '5';
 console.log(tr--); //5
+console.log(tr);
 console.log("------");

@@ -23,6 +23,11 @@ console.log("B is "+ b);
 console.log("Sum of A & B is " + a+b);
 console.log("Sum of A & B is " + (a+b));
 
+
+// let x = 'hello';
+// let y = 'JS';
+// let a = 600;
+// let b = 2;
 console.log(true + 'hello' + false);
 console.log(12.33 + 12.67 + x + y + a +b);
 console.log('java' + 'script' - 'script'); //NaN
