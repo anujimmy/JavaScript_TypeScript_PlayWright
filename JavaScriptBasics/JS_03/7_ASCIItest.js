@@ -14,4 +14,3 @@ console.log(str.charCodeAt(10)); //NaN length is 10 so max index is 9
 //0-9: 48 to 57 
 
 // Template literals
-
