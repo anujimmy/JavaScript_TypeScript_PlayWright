@@ -12,3 +12,8 @@ let flag = openPage('https://www.amazon.com', (title) =>{
 });
 
 console.log(flag);
+
+
+setTimeout(() => {
+      console.log('getting the data from sheet ....');
+}, 3000);
